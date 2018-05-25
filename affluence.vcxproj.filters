@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="header files">
+      <UniqueIdentifier>{9a10b4ee-9f7b-4cbb-a9f9-8f035facb55e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files">
+      <UniqueIdentifier>{280e0dd8-ea54-47cb-877f-940591899e35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\hooks">
+      <UniqueIdentifier>{b449b1ce-cb98-4bf9-9f31-463cc473fa19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\main">
+      <UniqueIdentifier>{a5f723a1-1628-4afa-9d1d-4e808368f75d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\menu">
+      <UniqueIdentifier>{c8ae93fd-0521-4141-b339-10cfdda21a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\sdk">
+      <UniqueIdentifier>{ffcdea83-8ddb-4ab7-a7e5-c5828a67e072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\hooks">
+      <UniqueIdentifier>{fad880ec-49fa-4e98-8ba8-e13af7983ab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\main">
+      <UniqueIdentifier>{801db47a-b7ca-423d-bd2a-6b6c7343a6dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\sdk">
+      <UniqueIdentifier>{00be541a-6d3d-4f69-952f-68d9a5986c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\sdk\interfaces">
+      <UniqueIdentifier>{485ad174-8559-4ce2-b2da-3ad3078b011e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\sdk\interfaces">
+      <UniqueIdentifier>{02cc96a1-2fb8-4acc-85d4-c720ccafcc3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\utils">
+      <UniqueIdentifier>{760befc9-1fc1-44ee-a42b-a11af7c1fc49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\utils">
+      <UniqueIdentifier>{b46d0b52-312c-4b1a-b105-fd25d2c3645f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\sdk\math">
+      <UniqueIdentifier>{a85d9eed-73f2-47ca-aa47-eab80413888d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\sdk\misc">
+      <UniqueIdentifier>{858261bc-d1f5-4b39-8882-3b0183b6bd57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\sdk\math">
+      <UniqueIdentifier>{9676f74e-d120-47eb-a1f4-2e6381766f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\sdk\misc">
+      <UniqueIdentifier>{c1b45e09-ebdb-471f-a066-5b0b4dd1c4f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\features">
+      <UniqueIdentifier>{b2676b43-d287-4f29-81f5-d20845ce5634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\features">
+      <UniqueIdentifier>{fbe2c93c-51da-48ca-a411-2f5223330d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\menu">
+      <UniqueIdentifier>{2e850ae2-dbc5-47b4-9849-60417c8f9353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\sdk\include">
+      <UniqueIdentifier>{fa92b9eb-5a3e-44fe-81f8-7e5379bc3bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\sdk\include">
+      <UniqueIdentifier>{a6346e52-ab87-49d9-8fce-50f48d852c30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sdk\interfaces\cbaseentity.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\cclientstate.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\cglobalvars.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\checksum_crc.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\checksum_md5.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\cinput.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\clientclass.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\cusercmd.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\datatable.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\enums.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\fnvhash.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\iappsystem.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ibaseclientdll.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\icliententity.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\icliententitylist.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\imaterialsystem.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ipanel.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\irenderview.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\isurface.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ivengineclient.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ivmodelinfoclient.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ivmodelrender.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\studio.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\math\matrix.hpp">
+      <Filter>header files\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\math\qangle.hpp">
+      <Filter>header files\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\math\vector.hpp">
+      <Filter>header files\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\math\vector2d.hpp">
+      <Filter>header files\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\math\vector4d.hpp">
+      <Filter>header files\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\getvfunc.hpp">
+      <Filter>header files\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\netvarmanager.hpp">
+      <Filter>header files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.hpp">
+      <Filter>header files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\vmthook.hpp">
+      <Filter>header files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\windows_includes.hpp">
+      <Filter>header files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\color.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\inputmanager.hpp">
+      <Filter>header files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\fonts.hpp">
+      <Filter>header files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\options.hpp">
+      <Filter>header files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\clientmode.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="main\interfaces.hpp">
+      <Filter>header files\main</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\hooks.hpp">
+      <Filter>header files\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="features\misc.hpp">
+      <Filter>header files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\imdlcache.hpp">
+      <Filter>header files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\menu.hpp">
+      <Filter>header files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\render.hpp">
+      <Filter>header files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\rendermenu.hpp">
+      <Filter>header files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\math.hpp">
+      <Filter>header files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\include\sdk.hpp">
+      <Filter>header files\sdk\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="hooks\createmove.cpp">
+      <Filter>source files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks.cpp">
+      <Filter>source files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\painttraverse.cpp">
+      <Filter>source files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="main\dllmain.cpp">
+      <Filter>source files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\checksum_crc.cpp">
+      <Filter>source files\sdk\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\checksum_md5.cpp">
+      <Filter>source files\sdk\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\math\matrix.cpp">
+      <Filter>source files\sdk\math</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\math\vector2d.cpp">
+      <Filter>source files\sdk\math</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\math\vector4d.cpp">
+      <Filter>source files\sdk\math</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\netvarmanager.cpp">
+      <Filter>source files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\utils.cpp">
+      <Filter>source files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\render.cpp">
+      <Filter>source files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\fonts.cpp">
+      <Filter>source files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\options.cpp">
+      <Filter>source files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="main\interfaces.cpp">
+      <Filter>source files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="features\misc.cpp">
+      <Filter>source files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\inputmanager.cpp">
+      <Filter>source files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\menu.cpp">
+      <Filter>source files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\findmdl.cpp">
+      <Filter>source files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\framestagenotify.cpp">
+      <Filter>source files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\rendermenu.cpp">
+      <Filter>source files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\math.cpp">
+      <Filter>source files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\drawmodelexecute.cpp">
+      <Filter>source files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\color.cpp">
+      <Filter>source files\sdk\interfaces</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
