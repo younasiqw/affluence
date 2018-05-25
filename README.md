@@ -1,5 +1,4 @@
 # affluence
-affluence
 
 Credits to:
 - aixxe (netvarmanager, vmthook)
